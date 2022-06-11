@@ -51,5 +51,5 @@ var PingModel = function (servers) {
         });
     });
 };
-var komodel = new PingModel(['qpkendra.com', 'quiz.qpkendra.com','cdn.qpkendra.com', 'resources.qpkendra.com', 'creators.qpkendra.com','files.qpkendra.com']);
+var komodel = new PingModel(['qpkendra.com', 'quiz.qpkendra.com','cdn.qpkendra.com','blog.qpkendra.com', 'resources.qpkendra.com', 'creators.qpkendra.com','files.qpkendra.com']);
 ko.applyBindings(komodel);
